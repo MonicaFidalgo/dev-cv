@@ -5,7 +5,7 @@ function Skills() {
     <div>
       <h1> Skills</h1>
 
-      <form>
+      <form id="skills">
         <ul>
           <li>
             <label for="form-technical">Technical Skills:</label>

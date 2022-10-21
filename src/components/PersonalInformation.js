@@ -5,7 +5,7 @@ function PersonalInformation() {
     <div>
       <h1> Personal Information</h1>
 
-      <form>
+      <form id="personal-information">
         <ul>
           <li>
             <label for="form-fullname">Fullname*:</label>
@@ -33,7 +33,7 @@ function PersonalInformation() {
             <input
               type="email"
               name="email"
-              id="form-tel"
+              id="form-email"
               placeholder="me@email.com"
               aria-label="Provide Your Email "
             />

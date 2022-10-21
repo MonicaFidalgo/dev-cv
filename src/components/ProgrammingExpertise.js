@@ -50,7 +50,7 @@ const ProgrammingExpertise = () => {
   return (
     <>
       <h1>Programming Expertise</h1>
-      <form onSubmit={onSubmit}>
+      <form id="programming-expertise" onSubmit={onSubmit}>
         {inputList}
         <button type="submit">Save</button>
         <button type="button" onClick={clearState}>
